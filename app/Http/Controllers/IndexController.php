@@ -2,10 +2,12 @@
 
 namespace App\Http\Controllers;
 
+use Illuminate\View\View;
+
 class IndexController extends Controller
 {
-    public function __invoke(): int
+    public function __invoke(): View
     {
-        return 111111111;
+        return view('main');
     }
 }
