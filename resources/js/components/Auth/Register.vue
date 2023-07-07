@@ -13,25 +13,25 @@ export default defineComponent({
 <template>
     <div>
         <FormControl
-            model-label="First Name"
+            model-label='First Name'
             mode-type='first_name'
-            model-name="first_name"
-            model-id="first_name"
-            model-placeholder="First Name"
+            model-name='first_name'
+            model-id='first_name'
+            model-placeholder='First Name'
         />
         <FormControl
-            model-label="Last Name"
+            model-label='Last Name'
             mode-type='last_name'
-            model-name="last_name"
-            model-id="last_name"
-            model-placeholder="Last Name"
+            model-name='last_name'
+            model-id='last_name'
+            model-placeholder='Last Name'
         />
         <FormControl
-            model-label="Email"
+            model-label='Email'
             mode-type='email'
-            model-name="email"
-            model-id="email"
-            model-placeholder="Email Address"
+            model-name='email'
+            model-id='email'
+            model-placeholder='Email Address'
         />
         <FormControl
             model-label='Password'

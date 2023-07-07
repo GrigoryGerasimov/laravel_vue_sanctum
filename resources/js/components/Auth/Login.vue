@@ -14,18 +14,18 @@ export default defineComponent({
 <template>
     <div>
         <FormControl
-            model-label="Email"
+            model-label='Email'
             mode-type='email'
-            model-name="email"
-            model-id="email"
-            model-placeholder="Email Address"
+            model-name='email'
+            model-id='email'
+            model-placeholder='Email Address'
         />
         <FormControl
-            model-label="Password"
+            model-label='Password'
             mode-type='password'
-            model-name="password"
-            model-id="password"
-            model-placeholder="Password"
+            model-name='password'
+            model-id='password'
+            model-placeholder='Password'
         />
         <Button class='btn-outline-dark'>
             Submit
