@@ -1,6 +1,6 @@
 const routes = [
     {
-        path: '/',
+        path: '/api/index',
         component: () => import('../components/Main/Main.vue'),
         name: 'main'
     },
