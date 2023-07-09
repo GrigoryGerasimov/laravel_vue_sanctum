@@ -39,6 +39,10 @@ export default defineComponent({
                 setTimeout(() => this.error = null, 3000)
             }
         }
+    },
+
+    mounted() {
+        this.$refs.init.$el.children[1].focus()
     }
 })
 </script>
@@ -52,6 +56,7 @@ export default defineComponent({
             model-id='email'
             model-placeholder='Email Address'
             v-model='email'
+            ref='init'
         />
         <FormControl
             model-label='Password'

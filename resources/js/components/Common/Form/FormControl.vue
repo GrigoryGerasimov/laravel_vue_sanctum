@@ -51,10 +51,10 @@ export default defineComponent({
 
 <style scoped>
 .label-width {
-    width: 100px
+    width: 200px
 }
 .input-width {
     max-width: 350px;
-    min-width: 200px;
+    min-width: 250px;
 }
 </style>
